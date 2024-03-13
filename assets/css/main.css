@@ -1,0 +1,882 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    max-width: 1440px;
+    height: 5760px;
+    background: wheat;
+    margin: 0 auto;
+    overflow: hidden;
+
+}
+
+.box {
+    width: 1441.55px;
+    height: 960.25px;
+    background-image: url("../images/bg\ image\ 1.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+
+.header_img {
+
+    position: relative;
+    top: 21.23px;
+    left: 119.68px;
+}
+
+.nav {
+    width: 872.67px;
+    height: 102.08px;
+    position: relative;
+    top: -40px;
+    left: 321.11px;
+    color: #FFFFFF;
+
+}
+
+.header_item {
+    display: flex;
+    font-family: Open Sans;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    list-style-type: none;
+    gap: 55px;
+
+
+
+}
+
+.MAIN:hover {
+    color: red;
+}
+
+.System:hover {
+    color: red;
+}
+
+.about:hover {
+    color: red;
+
+}
+
+.game:hover {
+    color: red;
+
+}
+
+.System1:hover {
+    color: red;
+
+}
+
+#inputState {
+    cursor: pointer;
+    position: absolute;
+    border: none;
+    background-color: transparent;
+    top: 1px;
+    left: 670px;
+    color: white;
+}
+
+option {
+    color: white;
+    background-color: black;
+}
+
+
+.div1 {
+    margin-left: 800px;
+    margin-top: -20px;
+}
+
+.div2 {
+    margin-left: 850px;
+    margin-top: -35px;
+}
+
+.nav_chiziq {
+    width: 1px;
+    height: 30px;
+    top: -5px;
+    left: 770px;
+    border: 0.87px;
+    opacity: 0.5px;
+    position: absolute;
+    background-color: #FFFFFF;
+}
+
+.hero {
+    width: 1156.51px;
+    height: 73.12px;
+    top: 313.38px;
+    position: absolute;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 3px;
+    color: #FFFFFF;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    margin-bottom: 7.28px;
+}
+
+.hero>h6 {
+    width: 600px;
+    height: 27.67px;
+    top: 87px;
+    left: 292px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 2px;
+    text-align: center;
+    position: absolute;
+
+
+}
+
+.buttons {
+    width: 280px;
+    height: 60px;
+    top: 150px;
+    left: 480px;
+    position: absolute;
+    background-color: #FFFFFF;
+    color: #1A1917;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+    border-radius: 2px;
+    cursor: pointer;
+    transition: .5s;
+
+    &:hover {
+        box-shadow: rgb(246, 161, 3) 0px 2px 4px 0px, rgba(246, 161, 3) 0px 2px 16px 0px;
+        transition: .5s;
+
+    }
+
+}
+
+.text1 {
+    margin-top: -22px;
+    margin-left: 210px;
+    cursor: pointer;
+
+}
+
+.text2 {
+    margin-top: 18px;
+
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.divs {
+    width: 1.5px;
+    height: 29px;
+    background-color: black;
+    margin-top: -27px;
+    border-radius: 2px;
+    margin-left: 65%;
+    position: absolute;
+    left: 1px;
+    top: 40px;
+    opacity: .5;
+
+    cursor: pointer;
+
+}
+
+.main {
+    margin-top: 746px;
+
+}
+
+.mainb_img {
+
+    background-image: url("../images/bg\ image\ 2.png");
+    width: 1440px;
+    Height: 961px;
+    position: absolute;
+    left: -119px;
+
+}
+
+.text3 {
+    width: 68.04px;
+    height: 24.62px;
+    top: 350px;
+    left: 100px;
+    position: absolute;
+    font-family: Open Sans;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: .2px;
+
+
+}
+
+.mainb_img>p {
+    width: 261.93px;
+    height: 27.7px;
+    top: 256.12px;
+    left: 120.84px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 2px;
+    text-align: left;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+    color: #FFFFFF;
+}
+
+.ojkm {
+    width: 800.93px;
+    height: 153.56px;
+    top: 293.24px;
+    left: 118.84px;
+    position: absolute;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 3px;
+
+}
+
+.divclas>p {
+    width: 640px;
+    height: 153.56px;
+    top: 260px;
+    left: 118.84px;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 3px;
+    position: relative;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #FFFFFF;
+
+
+
+
+}
+
+.text_4 {
+    width: 364.85px;
+    height: 173.57px;
+    top: 519.23px;
+    left: 307.02px;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+
+
+
+}
+
+.textr {
+    width: 364.85px;
+    height: 173.57px;
+    top: 500px;
+    left: 307.02px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #FFFFFF;
+    position: absolute;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+
+
+
+}
+
+
+
+.img {
+    width: 502.76px;
+    height: 610.52px;
+    top: 201.87px;
+    left: 710px;
+    position: absolute;
+
+}
+
+.img_1 {
+    width: 438.27px;
+    height: 563.24px;
+    top: 222.56px;
+    left: 800px;
+    opacity: 0.9px;
+    position: absolute;
+
+
+}
+
+.img_2 {
+    width: 438.27px;
+    height: 511.62px;
+    top: 249.15px;
+    left: 820px;
+    opacity: 0.8px;
+    position: absolute;
+
+
+}
+
+.chiziq1 {
+    width: 711.5px;
+    height: 2.99px;
+    top: 275px;
+    left: 120.84px;
+    border-radius: 4px;
+    position: relative;
+    background-color: #FFFFFF;
+
+}
+
+.rariq_chiziq {
+    width: 114px;
+    height: 5px;
+    background-color: #F3AF34;
+    top: 483px;
+    left: 463px;
+    position: relative;
+
+}
+
+.section {
+    width: 1442px;
+    height: 960px;
+    top: 1896px;
+    left: -119px;
+    position: absolute;
+    background-image: url("../images/bg\ image\ 3.png");
+    background-size: cover;
+    background-position: center;
+
+}
+
+.section>p {
+    width: 300px;
+    height: 27.67px;
+    top: 258.82px;
+    left: 800.65px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 2px;
+    text-align: left;
+    font-family: "Bebas Neue", sans-serif;
+    font-style: normal;
+    position: absolute;
+    color: #FFFFFF;
+
+
+}
+
+.section>h2 {
+    width: 240px;
+    height: 73.64px;
+    top: 295.21px;
+    left: 796.64px;
+    position: absolute;
+    font-family: "Bebas Neue", sans-serif;
+    font-style: normal;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 80px;
+    color: #FFFFFF
+}
+
+.nuqta1 {
+    width: 14px;
+    height: 14px;
+    top: 445.91px;
+    left: 809px;
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+
+}
+
+.chiziq2 {
+    width: 1.5px;
+    height: 180px;
+    top: 460px;
+    left: 815px;
+    position: absolute;
+    background-color: white;
+
+
+}
+
+.nuqta2 {
+    width: 14px;
+    height: 14px;
+    top: 640px;
+    left: 809.5px;
+    position: absolute;
+    border: 1.96px solid #FFFFFF;
+    border-radius: 50%;
+
+}
+
+.nuqta3 {
+    width: 14px;
+    height: 14px;
+    top: 725px;
+    left: 811px;
+    border: 1.31px solid white;
+    position: relative;
+    border-radius: 50%;
+
+
+}
+
+.text4 {
+    width: 465px;
+    height: 38.23px;
+    top: 430px;
+    left: 850px;
+    position: relative;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 2px;
+    color: #FFB548;
+    font-family: "Bebas Neue", sans-serif;
+    font-style: normal;
+}
+
+.text5 {
+    width: 362.52px;
+    height: 77.7px;
+    top: 490px;
+    left: 850px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    font-family: "Bebas Neue", sans-serif;
+    font-style: normal;
+    position: absolute;
+    color: #FFFFFF;
+
+
+}
+
+.text6 {
+    width: 455px;
+    height: 38.23px;
+    top: 560px;
+    left: 850px;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    font-family: "Bebas Neue", sans-serif;
+    font-style: normal;
+    color: #FFB548;
+    position: relative;
+
+}
+
+.text7 {
+    width: 485px;
+    height: 38.23px;
+    top: 623px;
+    left: 850px;
+    position: relative;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 2px;
+    font-family: "Bebas Neue", sans-serif;
+    font-style: normal;
+    color: #FFB548;
+
+
+}
+
+.qqqq {
+    width: 100px;
+    height: 1100px;
+    top: 510px;
+    left: 1289.82px;
+    position: absolute;
+    color: #FFFFFF;
+    z-index: 1;
+
+}
+
+.yumaolq1 {
+    width: 14px;
+    height: 14px;
+    top: 771.55px;
+    left: 818.46px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    position: absolute;
+
+}
+
+.yumaolq2 {
+    width: 32.16px;
+    height: 2px;
+    top: 778.47px;
+    left: 826.19px;
+    background-color: #FFFFFF;
+    position: absolute;
+
+
+}
+
+.yumaolq3 {
+    width: 14px;
+    height: 14px;
+    top: 771.55px;
+    left: 885.23px;
+    border: 1.31px solid #FFFFFF;
+    border-radius: 50%;
+    position: absolute;
+
+    border-radius: 50%;
+
+}
+
+.yumaolq4 {
+    width: 14px;
+    height: 14px;
+    top: 771.55px;
+    left: 952px;
+    border: 1.31px solid #FFFFFF;
+    border-radius: 50%;
+    position: absolute;
+
+
+}
+
+.yumaolq5 {
+    width: 14px;
+    height: 14px;
+    top: 771.95px;
+    left: 1018.77px;
+    border: 1.31px solid #FFFFFF;
+    border-radius: 50%;
+    position: absolute;
+
+}
+
+.yumaolq6 {
+    width: 14px;
+    height: 14px;
+    top: 771.95px;
+    left: 1085.54px;
+    border: 1.31px solid #FFFFFF;
+    border-radius: 50%;
+    position: absolute;
+
+}
+
+.borders {
+    display: flex;
+    gap: 52.77px;
+}
+
+.katt_div {
+    width: 1441.58px;
+    height: 960.16px;
+    position: relative;
+    top: 1938px;
+    background-image: url("../images/Group\ 2.jpg");
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+.katt_div>p {
+    width: 453px;
+    height: 27.67px;
+    top: 145.16px;
+    position: absolute;
+    left: 510px;
+    font-family: "Bebas Neue", sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+
+
+}
+
+.katta_div_title>p {
+    width: 980px;
+    height: 70px;
+    top: 181.55px;
+    left: 327px;
+    position: relative;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 80px;
+    font-family: "Bebas Neue", sans-serif;
+    font-style: normal;
+    color: #FFFFFF;
+    letter-spacing: 3px;
+
+
+
+}
+
+.table_div {
+    width: 573.2px;
+    height: 400.69px;
+    top: 388.5px;
+    left: 120.22px;
+    position: absolute;
+    background-image: url("../images/requirements.png");
+
+}
+
+.qqqqq {
+    width: 67.5px;
+    height: 0.2px;
+    top: 400px;
+    left: 1px;
+    position: absolute;
+    border: 1px solid #1f1f1f;
+
+}
+
+.dgjvwd {
+    width: 410px;
+    height: 0.2px;
+    top: 400px;
+    left: 150px;
+    position: absolute;
+    border: 1px solid #1f1f1f;
+}
+
+.sakodqw {
+    width: 1px;
+    height: 390px;
+    top: 1px;
+    left: 572px;
+    position: absolute;
+    border: 1px solid #1f1f1f;
+}
+
+.ohvdirfrb {
+    width: 1px;
+    height: 13px;
+    top: 389.5px;
+    left: 566px;
+    position: relative;
+    border: 1px solid #1f1f1f;
+    transform: rotate(50deg);
+}
+
+.qwert {
+    width: 1441.58px;
+    height: 1000px;
+    position: absolute;
+    background-image: url("../images/bg\ image\ 3.jpg");
+    background-size: 150%;
+    margin-top: 888px;
+
+}
+
+.qwert>p {
+    width: 261.93px;
+    height: 27.67px;
+    top: 303.24px;
+    left: 120.39px;
+    position: relative;
+    font-family: "Bebas Neue", sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+
+}
+
+.yangi_title>p {
+    width: 540px;
+    height: 153.56px;
+    top: 320px;
+    left: 117.39px;
+    position: relative;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 3px;
+    font-family: "Bebas Neue", sans-serif;
+    font-style: normal;
+    color: #FFFFFF;
+
+
+
+}
+
+.text8 {
+    width: 434.95px;
+    height: 136px;
+    top: 456.87px;
+    position: absolute;
+    left: 119.94px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    font-family: "Bebas Neue", sans-serif;
+    font-style: normal;
+    color: #FFFFFF;
+
+
+}
+
+.btn10 {
+    width: 260.36px;
+    height: 60px;
+    top: 520px;
+    left: 121.94px;
+    position: relative;
+    background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+    cursor: pointer;
+    color: #1A1917;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    font-family: "Bebas Neue", sans-serif;
+    font-style: normal;
+    transition: .5s;
+
+
+
+}
+
+.btn10:hover {
+    cursor: pointer;
+    box-shadow: rgb(246, 161, 3) 0px 2px 4px 0px, rgba(246, 161, 3) 0px 2px 16px 0px;
+    border: 1px solid #FFB548;
+    transition: .5s;
+    color: #ff0099;
+    background-color: transparent;
+
+}
+
+.shodow1 {
+    width: 493.21px;
+    height: 182.94px;
+    top: 159.16px;
+    left: 867.8px;
+    position: absolute;
+    cursor: pointer;
+    background: #FFFFFF14;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .5s;
+
+
+}
+
+.shodow1:hover {
+    box-shadow: rgb(208, 204, 197) 0px 2px 4px 0px, rgb(223, 221, 218) 0px 2px 16px 0px;
+    transition: .5s;
+
+}
+
+
+.shodow2 {
+    width: 493.21px;
+    height: 205px;
+    top: 372.07px;
+    left: 721.67px;
+    position: absolute;
+    background: #FFFFFF14;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .5s;
+
+
+
+}
+
+.shodow2:hover {
+    box-shadow: rgb(208, 204, 197) 0px 2px 4px 0px, rgb(223, 221, 218) 0px 2px 16px 0px;
+    transition: .5s;
+
+}
+
+
+.shodow3 {
+    width: 493.21px;
+    height: 205px;
+    top: 607.04px;
+    left: 827.46px;
+    position: absolute;
+    background: #FFFFFF14;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .5s;
+
+
+}
+
+.shodow3:hover {
+    box-shadow: rgb(208, 204, 197) 0px 2px 4px 0px, rgb(223, 221, 218) 0px 2px 16px 0px;
+    transition: .5s;
+
+}
+
+.nlfvoew {
+    width: 64.31px;
+    height: 64.31px;
+    top: 175.12px;
+    left: 890.23px;
+    position: absolute;
+    background: #FFB548;
+
+
+}
